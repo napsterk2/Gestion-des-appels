@@ -9,6 +9,7 @@ public class Contacts {
     public Contacts()
     {
 
+
     }
 
     public Contacts(int numero, String nom, String numeroTel) {
