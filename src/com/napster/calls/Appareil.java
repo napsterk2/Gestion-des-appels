@@ -1,11 +1,15 @@
 package com.napster.calls;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Appareil implements Iappareil {
 
-
+private List<Contacts> contact = new ArrayList<Contacts>();
+private Map<Integer,Appel> appels = new HashMap<Integer, Appel>();
     @Override
     public void enregistrer(Contacts c) {
 
